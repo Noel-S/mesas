@@ -1,0 +1,74 @@
+body {
+    margin: auto;
+    padding: auto;
+}
+
+#grid {
+    width: 800px;
+    height: 500px;
+    /* background-color: brown; */
+}
+
+.table {
+    width: 200px; 
+    height: 100px;
+    position: absolute; 
+    top: 50px; 
+    left: 50px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    cursor: grab;
+    user-select: none;
+    resize: both;
+    overflow: hidden;
+    -moz-user-select: none;    /* Mozilla */
+    -khtml-user-select: none;   /* Chrome */    
+    -o-user-select: none;      /* Opera */
+ }
+
+.table > button {
+    display: none;
+    padding: 0;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    top: -12.5px;
+    right: -12.5px;
+    border-radius: 50%;
+    border: none;
+}
+
+.table > button:hover {
+    background-color: black;
+}
+
+.table > button:active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* .table svg {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    transform: scale(0.8) rotate(-45deg);
+    cursor: se-resize;
+    bottom: -11px;
+    right: -11px;
+    border-radius: 50%;
+    fill:rgba(0, 0, 0, 0.5);
+}
+
+.table svg:hover {
+    fill: black;
+    transform: scale(0.9) rotate(-45deg);
+}
+
+.table > div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+} */
